@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140617075557) do
+ActiveRecord::Schema.define(version: 20140617124028) do
 
   create_table "lotteries", force: true do |t|
     t.string   "numbers_collection"
@@ -23,6 +23,15 @@ ActiveRecord::Schema.define(version: 20140617075557) do
     t.string   "status"
     t.integer  "user_id"
     t.integer  "bonus_id"
+  end
+
+  create_table "lottery_categories", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "time_cycle"
+    t.time     "drawing_time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "orders", force: true do |t|
