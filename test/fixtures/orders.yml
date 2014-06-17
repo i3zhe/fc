@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  round_number: MyString
+  user_id: 1
+  purchase_type_id: 1
+
+two:
+  round_number: MyString
+  user_id: 1
+  purchase_type_id: 1

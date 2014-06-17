@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  numbers_collection: MyString
+  times: 1
+  lottery_category_id: 1
+  order_id: 1
+
+two:
+  numbers_collection: MyString
+  times: 1
+  lottery_category_id: 1
+  order_id: 1
